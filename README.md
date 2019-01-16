@@ -37,9 +37,14 @@ In many cases, the open source projects were deployed by matlab.
 - https://github.com/ethanyxfang/MDB-DTW-for-signature-verification
   - Paper Link: https://rd.springer.com/chapter/10.1007/978-3-319-97909-0_68
 
-### Online project paper:
-- https://www.researchgate.net/profile/Napa_Sae-Bae2/publication/262055983_Online_Signature_Verification_on_Mobile_Devices/links/55b1f52408ae092e96500858/Online-Signature-Verification-on-Mobile-Devices.pdf?origin=publication_detail
-- http://www.ijste.org/articles/IJSTEV2I10172.pdf
+### Interesting Paper with identical name:
+- Online Signature Veriﬁcation on Mobile Devices
+  - 2014 by Nasir D. Memon (Hey prof, long time no see, how are you?)
+  - https://www.researchgate.net/publication/262055983_Online_Signature_Verification_on_Mobile_Devices
+  - --------------
+  - 2016 by Prof.Jadhav Hemant B (Read the conclusion suggested.)
+  - http://www.ijste.org/articles/IJSTEV2I10172.pdf
+
 
 ### Database Download-Able
 - offline: **UTSig** (University of Tehran Offline Signature Dataset)
