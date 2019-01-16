@@ -16,3 +16,25 @@ Depending on the acquisition method, signature verification systems are divided 
 - Luizgh proposed project: https://www.etsmtl.ca/Unites-de-recherche/LIVIA/Recherche-et-innovation/Projets/Signature-Verification
   - Convolutional Neural Network CNN approach to learning both writer-independent and writer-dependent features
   - Sigver_Wiwd on github: https://github.com/luizgh/sigver_wiwd
+
+## Open source works
+
+### Offline projects
+- https://github.com/luizgh/sigver_wiwd
+- https://github.com/EB324/signature_verification
+- https://github.com/Malkhan52/Offline-Signature-Recognition
+- https://github.com/Aftaab99/OfflineSignatureVerification
+
+### Online projects
+- https://github.com/jeongmincha/Online-Signature-Verification
+- https://github.com/ThompZon/online-signature-verification
+- https://github.com/kin3tik/Verifier
+  - With project report at: https://github.com/kin3tik/Verifier/blob/master/doc/Project%20Report.pdf
+- https://github.com/DonatoMeoli/DS-SRS
+  - With project paper at: https://github.com/DonatoMeoli/DS-SRS/blob/master/paper.pdf
+- https://github.com/ethanyxfang/MDB-DTW-for-signature-verification
+  - Paper Link: https://rd.springer.com/chapter/10.1007/978-3-319-97909-0_68
+
+### Online project paper:
+- https://www.researchgate.net/profile/Napa_Sae-Bae2/publication/262055983_Online_Signature_Verification_on_Mobile_Devices/links/55b1f52408ae092e96500858/Online-Signature-Verification-on-Mobile-Devices.pdf?origin=publication_detail
+- http://www.ijste.org/articles/IJSTEV2I10172.pdf
