@@ -9,8 +9,8 @@ In Image Processing Theory, Tools and Applications (IPTA), 2017 Seventh Internat
 URL: https://arxiv.org/pdf/1507.07909.pdf
 ```
 Depending on the acquisition method, signature verification systems are divided in two categories: **online (dynamic)** and **offline (static)**. 
-- In **online case**, an acquisition device, such as a digitizing table, is used to acquire the user’s signature. The data is collected as a sequence over time, containing the position of the pen, and in some cases including additional information such as the pen inclination\velocity\angle\curvature\full acceleration\coordinates\pressure __倾角\速度\角度\曲率\全加速度\坐标\压力__
-- In **offline signature** verification, the signature is acquired after the writing process is completed. In this case, the signature is represented as a __digital image__
+- In **online case**, an acquisition device, such as a digitizing table, is used to acquire the user’s signature. The data is collected as a sequence over time, containing the position of the pen, and in some cases including additional information such as the pen __*inclination\velocity\angle\curvature\full acceleration\coordinates\pressure*__ 倾角\速度\角度\曲率\全加速度\坐标\压力
+- In **offline signature** verification, the signature is acquired after the writing process is completed. In this case, the signature is represented as a __digital image or picture__
 - **SVM** (Support Vector Machines) model is one of the most effective classifier for signature verification
 - **Texture features** (especially Local Binary Patterns LBP) is the best hand-crafted feaature extractors in signature verification
 
