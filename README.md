@@ -9,19 +9,18 @@ In Image Processing Theory, Tools and Applications (IPTA), 2017 Seventh Internat
 URL: https://arxiv.org/pdf/1507.07909.pdf
 ```
 Depending on the acquisition method, signature verification systems are divided in two categories: **online (dynamic)** and **offline (static)**. 
-- In **online case**, an acquisition device, such as a digitizing table, is used to acquire the user’s signature. The data is collected as a sequence over time, containing the position of the pen, and in some cases including additional information such as the pen inclination\velocity\angle\curvature\full acceleration\coordinates\pressure 倾角\速度\角度\曲率\全加速度\坐标\压力
-- In **offline signature** verification, the signature is acquired after the writing process is completed. In this case, the signature is represented as a _digital image_
-- Model: **SVM** (Support Vector Machines) is one of the most effective classifier for signature verification
-- Feature: **Texture features** (especially Local Binary Patterns LBP) is the best hand-crafted feaature extractors in signature verification
-- Luizgh proposed project: https://www.etsmtl.ca/Unites-de-recherche/LIVIA/Recherche-et-innovation/Projets/Signature-Verification
-  - Convolutional Neural Network CNN approach to learning both writer-independent and writer-dependent features
-  - Sigver_Wiwd on github: https://github.com/luizgh/sigver_wiwd
+- In **online case**, an acquisition device, such as a digitizing table, is used to acquire the user’s signature. The data is collected as a sequence over time, containing the position of the pen, and in some cases including additional information such as the pen inclination\velocity\angle\curvature\full acceleration\coordinates\pressure __倾角\速度\角度\曲率\全加速度\坐标\压力__
+- In **offline signature** verification, the signature is acquired after the writing process is completed. In this case, the signature is represented as a __digital image__
+- **SVM** (Support Vector Machines) model is one of the most effective classifier for signature verification
+- **Texture features** (especially Local Binary Patterns LBP) is the best hand-crafted feaature extractors in signature verification
+
 
 ## Open source works
 In many cases, the open source projects were deployed by matlab. 
 ### Offline projects
 - https://github.com/luizgh/sigver_wiwd  
   - **Offline Expert!** 
+  - Project site: https://www.etsmtl.ca/Unites-de-recherche/LIVIA/Recherche-et-innovation/Projets/Signature-Verification
   - DCNN Deep convolutional neural network
 - https://github.com/EB324/signature_verification
 - https://github.com/Malkhan52/Offline-Signature-Recognition 
