@@ -25,9 +25,11 @@ In many cases, the open source projects were deployed by matlab.
   - **Offline Expert!** 
   - Project site: https://www.etsmtl.ca/Unites-de-recherche/LIVIA/Recherche-et-innovation/Projets/Signature-Verification
   - DCNN Deep convolutional neural network
-  - Be aware: the input signature image picture is 1 color channel file rather than RGB.
   - **SigNet** adopted as the feature approach
-  - *****Check the Euclidean Distance threshold in the paper*****
+  - Be aware: the input signature image picture is 1 color channel file **gray color** rather than RGB.
+  - *****questions need to be confirmed in the paper*****
+    - Check the Euclidean Distance threshold in the paper
+    - Which one is the best SigNet Model for future work
 - https://github.com/EB324/signature_verification
 - https://github.com/Malkhan52/Offline-Signature-Recognition 
 - https://github.com/Aftaab99/OfflineSignatureVerification
