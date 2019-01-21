@@ -29,12 +29,11 @@ Hafemann, L. G., Sabourin, R., & Oliveira, L. S. (2017, November).
   - DCNN Deep convolutional neural network
   - **SigNet** adopted as the feature approach
     - wget "https://storage.googleapis.com/luizgh-datasets/models/signet_models.zip"
-      - 3 signet models: 
+      - 3 signet models: Refere to paper [2]
         - signet.pkl; signetf_lambda0.95.pkl; and signetf_lambda0.999.pkl
-      - Refere to paper [2]
       - Input scaned signatures need to be preprocess_signature() before the CNN. In order to make sure the input image/signature under the same resolution by wrap/crop/resize functions
     - wget "https://storage.googleapis.com/luizgh-datasets/models/signet_spp_models.zip"
-      - 4 signet models:
+      - 4 signet models: Refere to paper [3]
         - signet_spp_300dpi.pkl; signet_spp_300dpi_f.pkl and 600_dpi
         - 300 or 600 is the scaned resolution of input image
         - (with or without _f_ ) Training the model with or without forgeries
