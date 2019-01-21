@@ -3,13 +3,6 @@ Review the state of art works of handwritten signature verification works.
 
 The depolyed case can be categoried as **offline + Writer Dependent** handwritten signature verification. 
 
-## Paper Luizgh (2017)
-```
-Hafemann, L. G., Sabourin, R., & Oliveira, L. S. (2017, November).
-Offline handwritten signature verification—literature review
-In Image Processing Theory, Tools and Applications (IPTA), 2017 Seventh International Conference on (pp. 1-8). IEEE.
-URL: https://arxiv.org/pdf/1507.07909.pdf
-```
 Depending on the acquisition method, signature verification systems are divided in two categories: **online (dynamic)** and **offline (static)**. 
 - In **online case**, an acquisition device, such as a digitizing table, is used to acquire the user’s signature. The data is collected as a sequence over time, containing the position of the pen, and in some cases including additional information such as the pen __*inclination\velocity\angle\curvature\full acceleration\coordinates\pressure*__ 倾角\速度\角度\曲率\全加速度\坐标\压力
 - In **offline signature** verification, the signature is acquired after the writing process is completed. In this case, the signature is represented as a __digital image or picture__
@@ -22,10 +15,31 @@ Depending on the acquisition method, signature verification systems are divided 
 In many cases, the open source projects were deployed by matlab. 
 ### Offline projects
 - https://github.com/luizgh/sigver_wiwd  
-  - **Offline Expert!** 
+```
+Hafemann, L. G., Sabourin, R., & Oliveira, L. S. (2017, November).
+[1] Offline handwritten signature verification—literature review
+    URL: https://arxiv.org/pdf/1507.07909.pdf
+[2] Learning Features for Offline Handwritten Signature Verification using Deep Convolutional Neural Networks
+    URL: http://dx.doi.org/10.1016/j.patcog.2017.05.012 (preprint)
+[3] Fixed-sized representation learning from Offline Handwritten Signatures of different sizes 
+    URL: https://doi.org/10.1007/s10032-018-0301-6 (preprint)
+```
+  - **Luizgh Offline Expert!** 
   - Project site: https://www.etsmtl.ca/Unites-de-recherche/LIVIA/Recherche-et-innovation/Projets/Signature-Verification
   - DCNN Deep convolutional neural network
   - **SigNet** adopted as the feature approach
+    - wget "https://storage.googleapis.com/luizgh-datasets/models/signet_models.zip"
+      - 3 signet models: 
+        - signet.pkl; signetf_lambda0.95.pkl; and signetf_lambda0.999.pkl
+      - Refere to paper [2]
+      - Input scaned signatures need to be preprocess_signature() before the CNN. In order to make sure the input image/signature under the same resolution by wrap/crop/resize functions
+    - wget "https://storage.googleapis.com/luizgh-datasets/models/signet_spp_models.zip"
+      - 4 signet models:
+        - signet_spp_300dpi.pkl; signet_spp_300dpi_f.pkl and 600_dpi
+        - 300 or 600 is the scaned resolution of input image
+        - (with or without _f_ ) Training the model with or without forgeries
+      - Improve the preprocess_signature() by the introduced SPP methodology.
+        - SPP the final layer in CNN, make sure CNN can handle any scale/size input image and generate the same sized feature vectors
   - Be aware: the input signature image picture is 1 color channel file **gray color** rather than RGB.
   - *****questions need to be confirmed in the paper*****
     - Check the Euclidean Distance threshold in the paper
