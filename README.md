@@ -1,9 +1,7 @@
 # Review-Handwritten-Signature-Verification
 Review the state of art works of handwritten signature verification works. 
 
-The depolyed case can be categoried as **offline + Writer Dependent** handwritten signature verification. 
-
-Depending on the acquisition method, signature verification systems are divided in two categories: **online (dynamic)** and **offline (static)**. 
+Depending on the acquisition method, signature verification systems are divided into: **online (dynamic)** and **offline (static)** with **Writer Dependent** or not categories. 
 - In **online case**, an acquisition device, such as a digitizing table, is used to acquire the user’s signature. The data is collected as a sequence over time, containing the position of the pen, and in some cases including additional information such as the pen __*inclination\velocity\angle\curvature\full acceleration\coordinates\pressure*__ 倾角\速度\角度\曲率\全加速度\坐标\压力
 - In **offline signature** verification, the signature is acquired after the writing process is completed. In this case, the signature is represented as a __digital image or picture__
 - Also, the can be devided into **writer independent** and **writer dependent** cases
@@ -12,9 +10,9 @@ Depending on the acquisition method, signature verification systems are divided 
 
 
 ## Open source works
-In many cases, the open source projects were deployed by matlab. 
+In many cases, the open source projects were deployed by matlab or python. 
 ### Offline projects
-- https://github.com/luizgh/sigver_wiwd  
+- https://github.com/luizgh/sigver_wiwd  (Python)
 ```
 Hafemann, L. G., Sabourin, R., & Oliveira, L. S. (2017, November).
 [1] Offline handwritten signature verification—literature review
@@ -43,6 +41,7 @@ Hafemann, L. G., Sabourin, R., & Oliveira, L. S. (2017, November).
   - *****questions need to be confirmed in the paper*****
     - Check the Euclidean Distance threshold in the paper
     - Which one is the best SigNet Model for future work
+    
 - https://github.com/EB324/signature_verification
 - https://github.com/Malkhan52/Offline-Signature-Recognition 
 - https://github.com/Aftaab99/OfflineSignatureVerification
