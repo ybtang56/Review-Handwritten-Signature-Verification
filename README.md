@@ -40,8 +40,9 @@ Hafemann, L. G., Sabourin, R., & Oliveira, L. S. (2017, November).
       - Improve the preprocess_signature() by the introduced SPP methodology.
         - SPP the final layer in CNN, make sure CNN can handle any scale/size input image and generate the same sized feature vectors
   - Be aware: 
+    - Refer _interactive_example.ipynb_ for SPP method
     - the input signature image picture is 1 color channel file **gray color** rather than RGB.
-    - The **time consumption** is high due to the limitation of **Theano** of DNN platform 
+    - The **time consumption** during compile is high due to the limitation of **Theano** of DNN platform 
   - *****questions need to be confirmed *****
     - Check the Euclidean Distance threshold in the paper (interactive_example.ipynb)
         - For actual classification, the simplest approach is computing the distance (in feature space) between a query signature and a reference. This is easy to implement (see the jupyter notebook example), but not very powerful. 
