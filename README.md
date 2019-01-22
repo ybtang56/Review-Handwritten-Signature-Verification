@@ -11,7 +11,7 @@ Depending on the acquisition method, signature verification systems are divided 
 
 ## Open source works
 In many cases, the open source projects were deployed by matlab or python. 
-### Offline projects
+### Offline project- Luizgh
 - https://github.com/luizgh/sigver_wiwd  (Python)
 ```
 Hafemann, L. G., Sabourin, R., & Oliveira, L. S. (2017, November).
@@ -37,13 +37,17 @@ Hafemann, L. G., Sabourin, R., & Oliveira, L. S. (2017, November).
         - (with or without _f_ ) Training the model with or without forgeries
       - Improve the preprocess_signature() by the introduced SPP methodology.
         - SPP the final layer in CNN, make sure CNN can handle any scale/size input image and generate the same sized feature vectors
-  - Be aware: the input signature image picture is 1 color channel file **gray color** rather than RGB.
+  - Be aware: 
+    - the input signature image picture is 1 color channel file **gray color** rather than RGB.
+    - The **time consumption** is high due to the limitation of **Theano** of DNN platform 
   - *****questions need to be confirmed *****
     - Check the Euclidean Distance threshold in the paper (interactive_example.ipynb)
         - For actual classification, the simplest approach is computing the distance (in feature space) between a query signature and a reference. This is easy to implement (see the jupyter notebook example), but not very powerful. 
         - Most commonly, people train **Writer-dependent classifiers** (one binary classifier for each user).  
-        
-    
+
+----------------------------------
+
+### Offline projects 
 - https://github.com/EB324/signature_verification
 - https://github.com/Malkhan52/Offline-Signature-Recognition 
 - https://github.com/Aftaab99/OfflineSignatureVerification
@@ -60,10 +64,9 @@ Hafemann, L. G., Sabourin, R., & Oliveira, L. S. (2017, November).
   - Paper Link: https://rd.springer.com/chapter/10.1007/978-3-319-97909-0_68
 
 ### Interesting Paper with identical name:
-- Online Signature Veriﬁcation on Mobile Devices
+Online Signature Veriﬁcation on Mobile Devices
   - 2014 by Nasir D. Memon (Hey prof, long time no see, how are you?)
   - https://www.researchgate.net/publication/262055983_Online_Signature_Verification_on_Mobile_Devices
-  - --------------
   - 2016 by Prof.Jadhav Hemant B (Read the conclusion suggested.)
   - http://www.ijste.org/articles/IJSTEV2I10172.pdf
 
