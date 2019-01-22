@@ -33,8 +33,10 @@ Hafemann, L. G., Sabourin, R., & Oliveira, L. S. (2017, November).
     - wget "https://storage.googleapis.com/luizgh-datasets/models/signet_spp_models.zip"
       - 4 signet models: Refere to paper [3]
         - signet_spp_300dpi.pkl; signet_spp_300dpi_f.pkl and 600_dpi
-        - 300 or 600 is the scaned resolution of input image
         - (with or without _f_ ) Training the model with or without forgeries
+        - 300 or 600 is the scaned resolution of input image
+        - 300dpi: input_size: (428, 612) and image_size: (476, 680)
+        - 600dpi: input_size: (856, 1224) and image_size: (952, 1360)
       - Improve the preprocess_signature() by the introduced SPP methodology.
         - SPP the final layer in CNN, make sure CNN can handle any scale/size input image and generate the same sized feature vectors
   - Be aware: 
